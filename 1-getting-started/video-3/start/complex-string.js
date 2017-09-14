@@ -1,10 +1,10 @@
 'use strict';
 
-let str = 'There are x days until Halloween!';
+let str = 'Excited that there are x days until Halloween!';
 
 let halloweenDate = new Date(new Date().getFullYear(), 9, 31);
 
-let complexStr = str.replace('x', dayCount(new Date, halloweenDate));
+let complexStr = str.replace('x', dayCount(new Date, halloweenDate)); // this will replaxe the firs x in the sentence, which is in Excited
 
 console.log(complexStr);
 

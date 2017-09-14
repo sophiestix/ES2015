@@ -12,8 +12,8 @@ let tableHtml = `
     </thead>
     <tbody>
       <tr>
-        <td>${student.name}</td>
-        <td></td>
+        <td>${student.name}</td> //value insterted in from outside the string
+        <td>${student.followerCount}</td>
       </tr>
     </tbody>
   </table>`;
