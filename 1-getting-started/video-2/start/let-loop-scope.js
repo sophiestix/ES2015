@@ -2,6 +2,7 @@
 
 (function initLoop() {
   function doLoop(x) {
+    i = 3;
     console.log('loop:', x);
   }
   
@@ -9,3 +10,5 @@
     doLoop(i + 1);
   }
 })();
+
+//this will result in an infinite loop
